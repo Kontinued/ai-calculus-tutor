@@ -1,3 +1,5 @@
+import sympy as sp
+import re
 def sympy_solver(state: TutorState) -> TutorState:
     """
     Handles calculus questions using SymPy to ensure correctness.
