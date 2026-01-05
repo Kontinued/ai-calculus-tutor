@@ -1,3 +1,9 @@
+import matplotlib.pyplot as plt
+import numpy as np
+import io, base64
+import sympy as sp
+import re
+
 def graph_plotter(state: TutorState) -> TutorState:
     """
     Converts symbolic expressions into numerical plots
